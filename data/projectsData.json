@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "An app that generates a random quote from a list of quotes with a click of a button.",
+            "live_demo_url": "http://chrislemus.io/FSJS-project-1/",
+            "github_repo": "https://github.com/chrislemus/FSJS-project-1",
+            "thumbnail": "/static/img/project-1-thumbnail.png",
+            "screenshot": ["/static/img/project-1-1.png", "/static/img/project-1-2.png"],
+            "technologies": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            "id": 2,
+            "project_name": "List Pagination and Filtering",
+            "description": "JavaScript was used to divide a long list into a series of pages and improve the user experience of a web page.",
+            "live_demo_url": "http://chrislemus.io/FSJS-project-2/",
+            "github_repo": "https://github.com/chrislemus/FSJS-project-2",
+            "thumbnail": "/static/img/project-2-thumbnail.png",
+            "screenshot": ["/static/img/project-2-1.png", "/static/img/project-2-2.png"],
+            "technologies": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "Form was enhanced so that it’s engaging, interactive, and easy to use.",
+            "live_demo_url": "http://chrislemus.io/FSJS-project-3/",
+            "github_repo": "https://github.com/chrislemus/FSJS-project-3",
+            "thumbnail": "/static/img/project-3-thumbnail.png",
+            "screenshot": ["/static/img/project-3-1.png", "/static/img/project-3-2.png"],
+            "technologies": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            "id": 4,
+            "project_name": "OOP Game Show App",
+            "description": "A browser-based, word guessing game: Phrase Hunter.",
+            "live_demo_url": "http://chrislemus.io/FSJS-project-4/",
+            "github_repo": "https://github.com/chrislemus/FSJS-project-4",
+            "thumbnail": "/static/img/project-4-thumbnail.png",
+            "screenshot": ["/static/img/project-4-1.png", "/static/img/project-4-2.png"],
+            "technologies": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Directory",
+            "description": "Employee directory that communicates with a third-party API (Application Programming Interface).",
+            "live_demo_url": "http://chrislemus.io/FSJS-project-5/",
+            "github_repo": "https://github.com/chrislemus/FSJS-project-5",
+            "thumbnail": "/static/img/project-5-thumbnail.png",
+            "screenshot": ["/static/img/project-5-1.png", "/static/img/project-5-2.png"],
+            "technologies": ["HTML", "CSS", "JavaScript", "AJAX"]
+        }
+    ]
+}

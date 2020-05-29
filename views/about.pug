@@ -1,0 +1,50 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 Chris Lemus
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | I started out creating websites on Wix for my family business. I felt restricted after using Wix for a while, so I switched over to Wordpress and created a website using a visual builder. 
+            | But after a while I felt restricted using a visual builder, which brought me to the journey of learning to code and expand my creativity!
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li HTML 5
+          li CSS
+          li JavaScript
+          li NPM
+          li Express 
+          li Node.JS
+          li Business Management
+          li Marketing
+          li Video Production
+          li Adobe Premiere
+          li Adobe After EFfects
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li (919)995-9906
+          li icrislemus@gmail.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='https://chrislemus.io/') Website
+        a.button.expanded(href='https://github.com/chrislemus') GitHub
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  
