@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
+
 const { projects } = require('../data/projectsData.json');
 
 router.get( '/', (req, res) => {
@@ -10,7 +11,14 @@ router.get( '/', (req, res) => {
 router.get( '/projects/:id', (req, res) => {
     const projectId = req.params.id;
     const project = projects.find( ({id}) => id === +projectId );
-    res.render('project', { project });
+    if(project) {
+        res.render('project', { project });
+    } else {
+        const err = new Error('Not Found');
+        err.status = 404;
+        res.render('error', {error: err})
+    }
+    
 });
 
 router.get( '/about', (req, res) => {
